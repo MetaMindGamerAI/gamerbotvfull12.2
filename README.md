@@ -1,5 +1,7 @@
 Gamerbot AI v12.2 (Pre-Release) by MetaMind AI 
+
 https://x.com/aiMetaMind
+
 Overview
 
 Gamerbot AI v12.2 is an autonomous AI-driven bot designed to play FPS games with human-like reflexes and decision-making. Currently optimized for Counter-Strike (CS), this AI framework integrates real-time movement, aiming, shooting, and decision processing. Future updates will expand compatibility to other FPS titles.
