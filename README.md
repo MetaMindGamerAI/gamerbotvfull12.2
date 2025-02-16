@@ -1,44 +1,85 @@
-# Game Bot
-### By Arda Mavi
+Gamerbot AI v12.2 (Pre-Release) by MetaMind AI 
 
-Artificial intelligence that learns to play any game by watching you.
+Overview
 
-## How does this work?
-- First: Run program and play any game for a little bit.
-- Second: Run program and watch the artificial intelligence play the game.
+Gamerbot AI v12.2 is an autonomous AI-driven bot designed to play FPS games with human-like reflexes and decision-making. Currently optimized for Counter-Strike (CS), this AI framework integrates real-time movement, aiming, shooting, and decision processing. Future updates will expand compatibility to other FPS titles.
+Developed fully by MetaMind AI
+@aiMetaMind 
+Features
 
-## How does it work behind the scenes?
-When you run the training program, the program listens for your keyboard and mouse moving, then it saves those movements.<br>
-Artificial intelligence learn: When I push any button?<br/>
-And when you run the program, it plays the game just like you!
+Autonomous Gameplay – AI-controlled movement, crosshair tracking, and shooting.
 
-## But how does it learn?
-##### Magic! (just joking)
-With deep learning.<br/>
-Deep Learning is a subfield of machine learning with neural networks inspired by the structure of the brains artificial neural networks.
+Advanced Targeting – Real-time enemy tracking and aim adjustments.
 
-### Playing with Artificial Intelligence:
-1. Open your desired game (If you have already trained the artificial intelligence).
-2. Run `python3 ai.py` command in terminal.
+Dynamic Movement System – Pathfinding and evasive maneuvers to simulate human-like gameplay.
 
-### Creating Training Dataset:
-1. Run `python3 create_dataset.py` command in terminal.
-2. Play your desired game.
-3. Stop `create_dataset` program with `Cntrl-C` in terminal.
+Voice & Chat Input – AI responds to voice commands and in-game chat.
 
-### Model Training:
-`python3 train.py`
+Customizable AI Framework – Modify and train the AI for different FPS titles.
 
-### Using TensorBoard:
-`tensorboard --logdir=Data/Checkpoints/logs`
+Live Terminal Logs – Displays real-time calculations for movement, aiming, and firing.
 
-### Important Notes:
-- Tested in Python version 3.6.0
+Configurable Sound System – Play custom audio cues based on AI actions.
 
-- Install necessary modules with `sudo pip3 install -r requirements.txt` command.
+Installation
 
-## WINDOWS Installation:
-- Install Python 3.6.0 : https://www.python.org/downloads/release/python-360/
-- Run CMD and Input Command `pip3 install -r requirements.txt`
+Requirements
 
-### This project is still being worked on ...
+Python 3.8+
+
+pip (Python package manager)
+
+Supported OS: Windows 10/11, Linux (partial support)
+
+Dependencies
+
+Install required libraries:
+
+pip install pyautogui pygame opencv-python numpy speechrecognition pyaudio
+
+Usage
+
+Clone the Repository:
+
+git clone https://github.com/MetaMindGamerAI/gamerbotvfull12.2
+cd GamerbotAI
+
+Run the AI Bot:
+
+python main.py
+
+Enable Terminal Logs: (Optional, for debugging)
+
+python terminal_log.py
+
+Configuration
+
+Modify config.json to tweak movement speed, aim sensitivity, and other parameters.
+
+Adjust AI behavior through ai_engine.py for custom responses and strategies.
+
+Replace sound files in sounds/ for personalized AI voice feedback.
+
+Future Updates
+
+Support for more FPS games (Apex Legends, Valorant, COD, etc.).
+
+Improved AI learning using reinforcement training.
+
+Enhanced voice recognition for real-time tactical commands.
+
+Cloud-based AI syncing for collaborative bot training.
+
+Disclaimer
+
+This software is intended for research and educational purposes only. The developers are not responsible for any misuse of this AI bot. Ensure compliance with game ToS and ethical gaming practices.
+
+Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss potential updates.
+
+License
+
+MIT License - See LICENSE file for details.
+
+Developer MetaMind AI @aiMetaMind
